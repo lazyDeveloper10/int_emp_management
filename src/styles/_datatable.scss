@@ -1,0 +1,39 @@
+datatable-body {
+    width: 100% !important;
+}
+
+datatable-scroller {
+    min-width: 100% !important;
+}
+
+.ngx-datatable.fixed-header .datatable-header {
+    width: auto;
+}
+
+.ngx-datatable.fixed-header .datatable-header .datatable-header-inner .datatable-header-cell {
+    border: none;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: normal !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+.table-align-right {
+    width: 100%;
+    text-align: end;
+}
+
+.table-action-button {
+    margin-left: 5px;
+}
+
+.table-action-button svg {
+    color: white !important;
+}
+
+@media (max-width: 991.98px) {
+    datatable-scroller {
+        width: 100% !important;
+    }
+}

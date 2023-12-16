@@ -1,0 +1,54 @@
+.card-header-container {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.card-header-title {
+    width: 50%;
+}
+
+.card-header-options {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .card-header-container {
+        display: block;
+    }
+
+    .card-header-title {
+        width: 100%;
+    }
+
+    .card-header-options {
+        width: 100%;
+        display: block;
+    }
+
+    .card-header-option-button {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+
+        button {
+            width: 100%;
+            margin-left: 0;
+        }
+
+        .option-create-new {
+            margin-right: 10px;
+        }
+
+        .option-print {
+            margin-left: 10px;
+        }
+    }
+}
